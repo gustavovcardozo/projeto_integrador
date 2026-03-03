@@ -93,7 +93,7 @@ Além disso, busca-se:
 
 * Python
 * Pandas
-* 
+
 ---
 
 📅 Planejamento do Projeto
