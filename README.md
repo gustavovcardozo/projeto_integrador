@@ -25,7 +25,9 @@ Análise do impacto de hábitos de estudo, comportamento digital e saúde mental
 Base de dados: **Student Performance Dataset (Kaggle)**
 Total de registros: 5.000 estudantes
 
-O conjunto de dados contém informações demográficas, hábitos de estudo, comportamento digital, saúde física e mental, além de variáveis de desempenho acadêmico.
+O conjunto de dados contém informações relacionadas à produtividade estudantil, incluindo dados demográficos, hábitos de estudo, comportamento digital, saúde física e mental, além de indicadores de desempenho acadêmico.
+
+Essas variáveis permitem analisar como diferentes fatores do cotidiano do estudante influenciam seu foco, nível de esgotamento (burnout), produtividade e desempenho em avaliações.
 
 ---
 
