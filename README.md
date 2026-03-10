@@ -7,10 +7,10 @@ Análise de Desempenho Estudantil e Fatores Comportamentais
 👥 Integrantes
 
 * Gustavo Cardozo
-* Luis
-* Isabella
-* Priscila
-* Camylle
+* Luis Henrique Batista Cirino
+* Isabella Brito Savieto
+* Priscila Rocha dos Santos
+* Camylle Vieira de Lucena
 
 ---
 
