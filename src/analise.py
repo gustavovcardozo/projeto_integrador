@@ -1,4 +1,4 @@
-📥 IMPORTAÇÃO DA PLANILHA .CSV
+#📥 IMPORTAÇÃO DA PLANILHA .CSV
 
 import pandas as pd
 
@@ -7,7 +7,7 @@ df = pd.read_csv('habitos_estudantes_tratada.csv')
 print(df.head())
 
 
-🔥 BURNOUT
+#🔥 BURNOUT
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -37,7 +37,7 @@ plt.savefig('burnout_pizza.png')
 plt.show()
 
 
-😴 SONO X FOCO
+#😴 SONO X FOCO
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -67,7 +67,7 @@ plt.savefig('sono_foco_pizza.png')
 plt.show()
 
 
-🧠 SAÚDE MENTAL
+#🧠 SAÚDE MENTAL
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -97,7 +97,7 @@ plt.savefig('saude_mental_pizza.png')
 plt.show()
 
 
-📱 USO DE REDES SOCIAIS
+#📱 USO DE REDES SOCIAIS
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -127,7 +127,7 @@ plt.savefig('redes_sociais_pizza.png')
 plt.show()
 
 
-📚 HORAS DE ESTUDO
+#📚 HORAS DE ESTUDO
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -157,7 +157,7 @@ plt.savefig('estudo_pizza.png')
 plt.show()
 
 
-📊 CORRELAÇÃO
+#📊 CORRELAÇÃO
 
 import pandas as pd
 import matplotlib.pyplot as plt
