@@ -1,152 +1,102 @@
-📊 Projeto Integrador
+# 📊 Projeto Integrador
 
-Análise de Desempenho Estudantil e Fatores Comportamentais
-
----
-
-👥 Integrantes
-
-* Gustavo Cardozo
-* Luis Henrique Batista Cirino
-* Isabella Brito Savieto
-* Priscila Rocha dos Santos
-* Camylle Vieira de Lucena
+## 🎓 Análise de Desempenho Estudantil e Fatores Comportamentais
 
 ---
 
-📌 Tema do Projeto
+## 👥 Integrantes
 
-Análise do impacto de hábitos de estudo, comportamento digital e saúde mental no desempenho acadêmico de estudantes.
-
----
-
-🗂 Base de Dados Utilizada
-
-Base de dados: **Student Performance Dataset (Kaggle)**
-Total de registros: 5.000 estudantes
-
-O conjunto de dados contém informações relacionadas à produtividade estudantil, incluindo dados demográficos, hábitos de estudo, comportamento digital, saúde física e mental, além de indicadores de desempenho acadêmico.
-
-Essas variáveis permitem analisar como diferentes fatores do cotidiano do estudante influenciam seu foco, nível de esgotamento (burnout), produtividade e desempenho em avaliações.
+- Gustavo Cardozo
+- Luis Henrique Batista Cirino
+- Isabella Brito Savieto
+- Priscila Rocha dos Santos
+- Camylle Vieira de Lucena
 
 ---
 
-🎯 Objetivo da Análise
+## 📌 Objetivo
 
-Este projeto tem como objetivo analisar como fatores comportamentais e de estilo de vida influenciam:
+Este projeto tem como objetivo analisar como hábitos de estudo, comportamento digital e saúde mental influenciam o desempenho acadêmico de estudantes.
 
-* Índice de foco
-* Nível de esgotamento (burnout)
-* Pontuação de produtividade
-* Nota final do exame
+A análise busca identificar padrões relacionados a:
 
-Além disso, busca-se:
-
-* Identificar padrões entre tempo de estudo e desempenho
-* Avaliar o impacto das redes sociais e jogos na produtividade
-* Investigar a relação entre saúde mental e nota final
-* Detectar possíveis fatores associados ao risco de burnout
+- 📈 Nota final
+- ⚡ Produtividade
+- 🎯 Índice de foco
+- 🔥 Burnout
 
 ---
 
-📊 Variáveis Analisadas
+## 🗂 Base de Dados
 
-👤 Dados Demográficos
+📚 Dataset utilizado:
 
-* Idade
-* Gênero
-* Nível acadêmico
+Student Performance Dataset (Kaggle)
 
-📚 Hábitos de Estudo
+👨‍🎓 Total de registros:
 
-* Horas de estudo
-* Horas de estudo individual
-* Horário de aulas online
-
-📱 Comportamento Digital
-
-* Uso de redes sociais
-* Horas de jogos
-* Tempo total de tela
-
-🏃 Saúde e Estilo de Vida
-
-* Horas de sono
-* Minutos de exercício
-* Ingestão de cafeína
-* Pontuação de saúde mental
-
-⚖ Pressão Acadêmica
-
-* Trabalho de meio período
-* Proximidade de prazos
-* Qualidade da internet
-
-📈 Variáveis-Alvo
-
-* Índice de foco
-* Nível de esgotamento
-* Produtividade
-* Nota do exame
+- 5.000 estudantes
 
 ---
 
-🛠 Ferramentas Utilizadas
+## 🛠 Tecnologias Utilizadas
 
-* Python
-* Pandas
-
----
-
-📅 Planejamento do Projeto
-
-🔹 Etapa 1 – Organização Inicial
-
-* Criação do repositório no GitHub
-* Inserção dos integrantes como colaboradores
-* Estruturação das pastas do projeto
-
-🔹 Etapa 2 – Análise Exploratória (EDA)
-
-* Limpeza e tratamento dos dados
-* Análise estatística descritiva
-* Identificação de correlações
-* Visualização gráfica das variáveis
-
-🔹 Etapa 3 – Modelagem (opcional)
-
-* Regressão para previsão de nota
-* Classificação para risco de burnout
-* Avaliação de métricas de desempenho
-
-🔹 Etapa 4 – Desenvolvimento do Dashboard
-
-* Definição das métricas principais
-* Criação de gráficos interativos
-* Organização visual dos resultados
+- 🐍 Python
+- 🐼 Pandas
+- 📊 Matplotlib
+- 🎨 Seaborn
 
 ---
 
-👨‍💻 Divisão de Tarefas
+## 📊 Análises Realizadas
 
-* Integrante 1: Limpeza e tratamento dos dados
-* Integrante 2: Análise exploratória e visualizações
-* Integrante 3: Modelagem preditiva
-* Integrante 4: Documentação e dashboard
+### ✔ Correlação entre variáveis
+
+Foi criada uma matriz de correlação para identificar relações entre:
+
+- ⏰ Horas de estudo
+- 📝 Nota final
+- 🧠 Saúde mental
+- 🔥 Burnout
+- ⚡ Produtividade
 
 ---
 
-📈 Ideia Inicial do Dashboard
+### 📚 Horas de estudo x Nota
 
-O dashboard apresentará:
+Análise da relação entre tempo de estudo e desempenho acadêmico.
 
-* 📊 Gráfico de correlação entre horas de estudo e nota
-* 📉 Relação entre tempo de tela e produtividade
-* 📈 Impacto da saúde mental no desempenho
-* 🔥 Indicador de risco de burnout
-* 📌 Média geral de nota por nível acadêmico
+---
 
-Objetivo do dashboard:
-Permitir visualização clara dos principais fatores que influenciam o desempenho estudantil e apoiar decisões acadêmicas baseadas em dados.
+### 📱 Redes sociais x Produtividade
 
+Avaliação do impacto do uso de redes sociais na produtividade.
 
+---
+
+### 🧠 Saúde mental x Nota
+
+Investigação da influência da saúde mental no desempenho acadêmico.
+
+---
+
+### 😴 Sono x Foco
+
+Análise da relação entre horas de sono e índice de foco.
+
+---
+
+## 📈 Resultados Esperados
+
+Com este projeto, espera-se compreender quais fatores possuem maior influência no desempenho estudantil e identificar possíveis comportamentos associados ao burnout e baixa produtividade.
+
+---
+
+Projeto_Integrador/
+│
+├── 📁 data/
+├── 🖼 images/
+├── 💻 src/
+├── 📄 README.md
+├── 📦 requirements.txt
+└── 🚫 .gitignore
